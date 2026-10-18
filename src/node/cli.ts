@@ -7,9 +7,9 @@
  */
 
 import {CLI, Browser} from '@puppeteer/browsers';
-import type {PuppeteerNode} from 'puppeteer-core/internal/node/PuppeteerNode.js';
-import {PUPPETEER_REVISIONS} from 'puppeteer-core/internal/revisions.js';
-import {packageVersion} from 'puppeteer-core/internal/util/version.js';
+import type {PuppeteerNode} from 'rebrowser-puppeteer-core/internal/node/PuppeteerNode.js';
+import {PUPPETEER_REVISIONS} from 'rebrowser-puppeteer-core/internal/revisions.js';
+import {packageVersion} from 'rebrowser-puppeteer-core/internal/util/version.js';
 
 import puppeteer from '../puppeteer.js';
 

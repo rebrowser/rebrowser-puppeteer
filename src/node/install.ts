@@ -15,8 +15,8 @@ import type {
   ChromeHeadlessShellSettings,
   ChromeSettings,
   FirefoxSettings,
-} from 'puppeteer-core';
-import {PUPPETEER_REVISIONS} from 'puppeteer-core/internal/revisions.js';
+} from 'rebrowser-puppeteer-core';
+import {PUPPETEER_REVISIONS} from 'rebrowser-puppeteer-core/internal/revisions.js';
 
 import {getConfiguration} from '../getConfiguration.js';
 
