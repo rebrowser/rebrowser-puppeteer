@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-export * from 'puppeteer-core';
+export * from 'rebrowser-puppeteer-core';
 
-import {PuppeteerNode} from 'puppeteer-core';
+import {PuppeteerNode} from 'rebrowser-puppeteer-core';
 
 import {getConfiguration} from './getConfiguration.js';
 

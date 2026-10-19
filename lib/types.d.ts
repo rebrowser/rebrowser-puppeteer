@@ -3,11 +3,11 @@
  * Copyright 2026 Google Inc.
  * SPDX-License-Identifier: Apache-2.0
  */
-import type {Browser} from 'puppeteer-core';
-import type {ChromeReleaseChannel} from 'puppeteer-core';
-import type {ConnectOptions} from 'puppeteer-core';
-import type {LaunchOptions} from 'puppeteer-core';
-import type {PuppeteerNode} from 'puppeteer-core';
+import type {Browser} from 'rebrowser-puppeteer-core';
+import type {ChromeReleaseChannel} from 'rebrowser-puppeteer-core';
+import type {ConnectOptions} from 'rebrowser-puppeteer-core';
+import type {LaunchOptions} from 'rebrowser-puppeteer-core';
+import type {PuppeteerNode} from 'rebrowser-puppeteer-core';
 
 /**
  * @public
@@ -85,6 +85,6 @@ export declare const /**
    */
   trimCache: () => Promise<void>;
 
-export * from 'puppeteer-core';
+export * from 'rebrowser-puppeteer-core';
 
 export {};

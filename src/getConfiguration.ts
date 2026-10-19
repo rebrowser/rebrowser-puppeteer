@@ -14,7 +14,7 @@ import type {
   Configuration,
   FirefoxSettings,
   SupportedBrowser,
-} from 'puppeteer-core';
+} from 'rebrowser-puppeteer-core';
 
 function getBooleanEnvVar(name: string): boolean | undefined {
   const env = process.env[name];

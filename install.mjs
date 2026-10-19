@@ -17,11 +17,11 @@
  */
 
 /**
- * @returns {import("puppeteer/internal/node/install.js")}
+ * @returns {import("rebrowser-puppeteer/internal/node/install.js")}
  */
 async function importInstaller() {
   try {
-    return await import('puppeteer/internal/node/install.js');
+    return await import('rebrowser-puppeteer/internal/node/install.js');
   } catch (error) {
     // Add more logging when the GitHub Action Debugging option is set
     // https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables
